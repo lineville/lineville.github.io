@@ -10,6 +10,10 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/liam-neville/',
     },
+    {
+      name: 'Medium',
+      url: 'https://medium.com/@lineville',
+    },
   ],
 
   navLinks: [
