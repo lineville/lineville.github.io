@@ -11,7 +11,7 @@ module.exports = {
       url: 'https://www.linkedin.com/in/liam-neville/',
     },
     {
-      name: 'Medium',
+      name: 'Bookmark',
       url: 'https://medium.com/@lineville',
     },
   ],

@@ -9,6 +9,7 @@ const StyledMainContainer = styled.main`
 
 // TODO Find a medium logo to link to blog
 // TODO Replace projects with all of my projects
+// TODO replace resume
 const IndexPage = ({ location }) => (
   <Layout location={location}>
     <StyledMainContainer className="fillHeight">

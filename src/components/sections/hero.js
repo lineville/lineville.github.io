@@ -63,13 +63,14 @@ const Hero = () => {
 
   const one = (
     <h1>
+      {/* TODO animate this text to be typed out with a cursor like a CLI, and randomly generate new text each time, maybe in different languages or different ways of greeting */}
       <span role="img" aria-label="wave">
         👋
       </span>{' '}
-      Hi, my name is
+      Hi, my name is_
     </h1>
   );
-  const two = <h2 className="big-heading">Liam Neville.</h2>;
+  const two = <h2 className="big-heading">Liam Neville</h2>;
   const three = (
     <h3 className="big-heading" id="colorful-heading">
       I build things for the web.
