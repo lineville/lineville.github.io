@@ -64,6 +64,7 @@ const Hero = () => {
   const one = (
     <h1>
       {/* TODO animate this text to be typed out with a cursor like a CLI, and randomly generate new text each time, maybe in different languages or different ways of greeting */}
+      {/* TODO make some typing sounds maybe? */}
       <span role="img" aria-label="wave">
         👋
       </span>{' '}
@@ -99,7 +100,11 @@ const Hero = () => {
       href="https://www.github.com/lineville"
       target="_blank"
       rel="noreferrer">
-      Follow me on GitHub!
+      Follow me on GitHub!{' '}
+      <span role="img" aria-label="point-right">
+        👉
+      </span>{' '}
+      @lineville
     </a>
   );
 
