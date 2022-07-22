@@ -42,6 +42,10 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
+
+  ${'' /* TODO CSS gradient here */}
+  #colorful-heading {
+  }
 `;
 
 const Hero = () => {
@@ -66,7 +70,11 @@ const Hero = () => {
     </h1>
   );
   const two = <h2 className="big-heading">Liam Neville.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const three = (
+    <h3 className="big-heading" id="colorful-heading">
+      I build things for the web.
+    </h3>
+  );
   const four = (
     <>
       <p>
@@ -87,10 +95,10 @@ const Hero = () => {
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://www.github.com/lineville"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Follow me on GitHub!
     </a>
   );
 
@@ -98,15 +106,7 @@ const Hero = () => {
 
   return (
     <StyledHeroSection>
-      {prefersReducedMotion ? (
-        <>
-          {items.map((item, i) => (
-            <div key={i}>{item}</div>
-          ))}
-        </>
-      ) : (
-        <>{isMounted && items.map((item, i) => <div key={i}>{item}</div>)}</>
-      )}
+      <>{isMounted && items.map((item, i) => <div key={i}>{item}</div>)}</>
     </StyledHeroSection>
   );
 };
