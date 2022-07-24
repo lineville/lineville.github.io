@@ -44,7 +44,7 @@ const StyledProjectsSection = styled.section`
 
   #more {
     margin-top: 60px;
-    font-size: x-large;
+    font-size: xxx-large;
   }
 `;
 
