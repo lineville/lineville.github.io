@@ -174,6 +174,28 @@ const GlobalStyle = createGlobalStyle`
     font-size: clamp(40px, 8vw, 80px);
   }
 
+  .colorful-heading {
+    font-size: 60px;
+    background: linear-gradient(
+      to right bottom,
+      #d16ba5,
+      #c777b9,
+      #ba83ca,
+      #aa8fd8,
+      #9a9ae1,
+      #8aa7ec,
+      #79b3f4,
+      #69bff8,
+      #52cffe,
+      #41dfff,
+      #46eefa,
+      #5ffbf1
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-top: 8px;
+  }
+
   .medium-heading {
     margin: 0;
     font-size: clamp(40px, 8vw, 60px);

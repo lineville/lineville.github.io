@@ -2,12 +2,14 @@ import React, { useState, useEffect } from 'react';
 import styled from 'styled-components';
 import { navDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import TypeAnimation from 'react-type-animation';
+import { translations } from '@config';
 // import { email } from '@config';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
-  flex-direction: column;
   align-items: flex-start;
+  flex-direction: column;
   min-height: 100vh;
   padding: 0;
 
@@ -42,15 +44,26 @@ const StyledHeroSection = styled.section`
     ${({ theme }) => theme.mixins.bigButton};
     margin-top: 50px;
   }
-
-  ${'' /* TODO CSS gradient here */}
-  #colorful-heading {
-  }
 `;
+
+const shuffleArray = array => {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
 
 const Hero = () => {
   const [isMounted, setIsMounted] = useState(false);
   const prefersReducedMotion = usePrefersReducedMotion();
+  const seq = [];
+  for (const greeting of shuffleArray(translations)) {
+    seq.push(`✨❯ ${greeting.flag} 👋 ${greeting.text}`);
+    seq.push(1000);
+    seq.push(`✨❯`);
+    seq.push(1000);
+  }
 
   useEffect(() => {
     if (prefersReducedMotion) {
@@ -61,22 +74,9 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = (
-    <h1>
-      {/* TODO animate this text to be typed out with a cursor like a CLI, and randomly generate new text each time, maybe in different languages or different ways of greeting */}
-      {/* TODO make some typing sounds maybe? */}
-      <span role="img" aria-label="wave">
-        👋
-      </span>{' '}
-      Hi, my name is_
-    </h1>
-  );
+  const one = <TypeAnimation cursor={true} sequence={seq} wrapper="h1" repeat={Infinity} />;
   const two = <h2 className="big-heading">Liam Neville</h2>;
-  const three = (
-    <h3 className="big-heading" id="colorful-heading">
-      I build things for the web.
-    </h3>
-  );
+  const three = <h3 className="big-heading colorful-heading">I build things for the web.</h3>;
   const four = (
     <>
       <p>
@@ -104,7 +104,12 @@ const Hero = () => {
       <span role="img" aria-label="point-right">
         👉
       </span>{' '}
-      @lineville
+      <TypeAnimation
+        cursor={true}
+        sequence={['@lineville', 1000, '']}
+        wrapper="a"
+        repeat={Infinity}
+      />
     </a>
   );
 

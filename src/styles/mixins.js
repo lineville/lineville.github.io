@@ -131,6 +131,7 @@ const mixins = {
     &:after {
       display: none !important;
     }
+    min-width: 360px;
   `,
 
   boxShadow: css`

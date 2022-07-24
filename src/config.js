@@ -22,11 +22,11 @@ module.exports = {
       url: '/#about',
     },
     {
-      name: 'Experience',
+      name: 'Work',
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
   ],
@@ -52,4 +52,67 @@ module.exports = {
     viewFactor,
     viewOffset: { top: 0, right: 0, bottom: 0, left: 0 },
   }),
+
+  translations: [
+    {
+      language: 'English',
+      symbol: 'en',
+      text: 'Hi, my name is',
+      flag: '🏴󠁧󠁢󠁥󠁮󠁧󠁿',
+    },
+    {
+      language: 'Mandarin',
+      symbol: 'zh',
+      text: '你好，我的名字是',
+      flag: '🇨🇳',
+    },
+    {
+      language: 'Arabic',
+      symbol: 'ar',
+      text: 'مرحبا "أسمي هو',
+      flag: '🇸🇦',
+    },
+    {
+      language: 'Dutch',
+      symbol: 'nl',
+      text: 'Hallo mijn naam is',
+      flag: '🇳🇱',
+    },
+    {
+      language: 'French',
+      symbol: 'fr',
+      text: `Salut je m'appelle`,
+      flag: '🇫🇷',
+    },
+    {
+      language: 'German',
+      symbol: 'de',
+      text: 'Hi, mein Name ist',
+      flag: '🇩🇪',
+    },
+    {
+      language: 'Italian',
+      symbol: 'it',
+      text: 'Ciao, mi chiamo',
+      flag: '🇮🇹',
+    },
+    {
+      language: 'Japanese',
+      symbol: 'ja',
+      text: 'こんにちは、私の名前は',
+      flag: '🇯🇵',
+    },
+    {
+      language: 'Russian',
+      symbol: 'ru',
+      text: 'Привет, меня зовут',
+      flag: '🇷🇺',
+    },
+    {
+      language: 'Spanish',
+      symbol: 'es',
+      text: 'Hola, mi nombre es',
+      flag: '🇪🇸',
+    },
+  ],
 };

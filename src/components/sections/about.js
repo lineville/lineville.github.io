@@ -135,9 +135,17 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Liam and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2016 when I began studying Computer
-              Science at Vassar College.
+              Hi{' '}
+              <span role="img" aria-label="wave">
+                👋
+              </span>{' '}
+              my name is Liam and I enjoy building things that live on the internet. My interest in
+              software development began in 2015 when I began studying Computer Science and Math at
+              Vassar College, and shortly thereafter began working as a Computer Science Department
+              Coach/TA assisting my peers in their coursework. In the summer of 2018 before my final
+              year at Vassar I attended{' '}
+              <a href="https://www.fullstackacademy.com/">FullStack Academy</a> in New York City
+              where I kick-started my career in web development.
             </p>
 
             <p>
