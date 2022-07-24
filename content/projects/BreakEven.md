@@ -3,7 +3,6 @@ date: '2017-12-27'
 title: 'Break Even'
 github: 'https://github.com/lineville/blackjack'
 external: 'https://www.breakeven.dev/'
-cover: './demo.jpeg'
 tech:
   - Svelte
   - TypeScript
