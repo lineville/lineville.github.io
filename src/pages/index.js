@@ -7,7 +7,6 @@ const StyledMainContainer = styled.main`
   counter-reset: section;
 `;
 
-// TODO Replace projects with all of my projects
 const IndexPage = ({ location }) => (
   <Layout location={location}>
     <StyledMainContainer className="fillHeight">

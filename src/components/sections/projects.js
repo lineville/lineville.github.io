@@ -41,6 +41,10 @@ const StyledProjectsSection = styled.section`
     ${({ theme }) => theme.mixins.button};
     margin: 80px auto 0;
   }
+
+  #more {
+    margin-top: 60px;
+  }
 `;
 
 const StyledProject = styled.li`
@@ -263,7 +267,6 @@ const Projects = () => {
   return (
     <StyledProjectsSection>
       <h2 ref={revealTitle}>More Projects</h2>
-
       <ul className="projects-grid">
         <TransitionGroup component={null}>
           {projects &&
@@ -285,6 +288,9 @@ const Projects = () => {
             ))}
         </TransitionGroup>
       </ul>
+      <h3 className="big-heading colorful-heading" id="more">
+        More to come...
+      </h3>
     </StyledProjectsSection>
   );
 };
