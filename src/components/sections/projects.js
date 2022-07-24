@@ -44,6 +44,7 @@ const StyledProjectsSection = styled.section`
 
   #more {
     margin-top: 60px;
+    font-size: x-large;
   }
 `;
 
@@ -288,9 +289,9 @@ const Projects = () => {
             ))}
         </TransitionGroup>
       </ul>
-      <h3 className="big-heading colorful-heading" id="more">
+      <h4 className="big-heading colorful-heading" id="more">
         More to come...
-      </h3>
+      </h4>
     </StyledProjectsSection>
   );
 };
