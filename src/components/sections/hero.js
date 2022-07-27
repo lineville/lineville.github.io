@@ -86,7 +86,10 @@ const Hero = () => {
           GitHub
         </a>{' '}
         as a member of the{' '}
-        <a href="https://github.com/github/field-engineering" target="_blank" rel="noreferrer">
+        <a
+          href="https://github.com/orgs/github/teams/field-engineering"
+          target="_blank"
+          rel="noreferrer">
           Field Engineering
         </a>{' '}
         team, with the mission of delivering high quality tools to accelerate the adoption and usage
