@@ -81,19 +81,19 @@ const Hero = () => {
     <>
       <p>
         I’m a Full-Stack Software Engineer focused on building powerful, reliable and delightful
-        digital experiences. Currently I'm working at{' '}
-        <a href="https://github.com/github" target="_blank" rel="noreferrer">
-          GitHub
-        </a>{' '}
-        as a member of the{' '}
+        digital experiences. I currently work on the{' '}
         <a
           href="https://github.com/orgs/github/teams/field-engineering"
           target="_blank"
           rel="noreferrer">
           Field Engineering
         </a>{' '}
-        team, with the mission of delivering high quality tools to accelerate the adoption and usage
-        of GitHub Actions.
+        team at{' '}
+        <a href="https://github.com/github" target="_blank" rel="noreferrer">
+          GitHub
+        </a>{' '}
+        , with the mission of delivering high quality tools to accelerate the adoption and usage of
+        GitHub Actions.
       </p>
     </>
   );
