@@ -92,8 +92,11 @@ const Hero = () => {
         <a href="https://github.com/github" target="_blank" rel="noreferrer">
           GitHub
         </a>{' '}
-        , with the mission of delivering high quality tools to accelerate the adoption and usage of
-        GitHub Actions.
+        , with the mission of delivering high quality tools to accelerate the adoption and usage of{' '}
+        <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
+          GitHub Actions
+        </a>
+        .
       </p>
     </>
   );
