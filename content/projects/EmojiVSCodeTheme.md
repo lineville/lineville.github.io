@@ -1,6 +1,6 @@
 ---
 date: '2022-08-04'
-title: '✨ Emoji VS Code Theme ✨'
+title: '✨ Emoji VS Code Theme'
 github: 'https://github.com/lineville/vscode-emoji-icons'
 external: 'https://marketplace.visualstudio.com/items?itemName=LiamNeville.emoji-icon-fun-theme'
 tech:
