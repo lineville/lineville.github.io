@@ -1,6 +1,6 @@
 ---
 date: '2019-06-01'
-title: 'Daily Coding Problems'
+title: '📓 Daily Coding Problems'
 github: 'https://github.com/lineville/daily-coding-problem'
 tech:
   - TypeScript

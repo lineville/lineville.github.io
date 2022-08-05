@@ -1,6 +1,6 @@
 ---
 date: '2017-12-27'
-title: 'Break Even'
+title: '🃏 Break Even'
 github: 'https://github.com/lineville/blackjack'
 external: 'https://www.breakeven.dev/'
 tech:

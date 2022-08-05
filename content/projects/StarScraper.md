@@ -1,6 +1,6 @@
 ---
 date: '2022-06-01'
-title: 'Star Scraper'
+title: '🌟 Star Scraper'
 github: 'https://github.com/lineville/star-scraper'
 external: 'https://www.npmjs.com/package/star-scraper'
 tech:

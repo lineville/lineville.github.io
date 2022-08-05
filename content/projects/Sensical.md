@@ -1,6 +1,6 @@
 ---
 date: '2018-08-01'
-title: 'Sensical'
+title: '🧠 Sensical'
 github: 'https://github.com/lineville/sensical'
 external: 'https://sensical.herokuapp.com/'
 tech:
