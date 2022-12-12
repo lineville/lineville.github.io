@@ -27,9 +27,6 @@ concurrency:
 defaults:
   run:
     shell: bash
-    
-env:
-  NODE_OPTIONS: --openssl-legacy-provider
 
 jobs:
   # Build job
