@@ -1,6 +1,6 @@
 ---
 date: '2022-11-09'
-title: ':octocat: GitHub Actions Importer'
+title: '▶️ GitHub Actions Importer'
 github: 'https://github.com/github/gh-actions-importer'
 external: 'https://docs.github.com/en/actions/migrating-to-github-actions/automating-migration-with-github-actions-importer'
 tech:
