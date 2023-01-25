@@ -1,7 +1,7 @@
 ---
 date: '2022-12-01'
-title: '🎾 USTA Scraper'
-github: 'https://github.com/lineville/usta-scraper'
+title: '🎾 USTA CLI'
+github: 'https://github.com/lineville/usta-cli'
 external: 'https://github.com/lineville/usta-scraper/pkgs/container/usta-scraper'
 tech:
   - C#
