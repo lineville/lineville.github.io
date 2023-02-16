@@ -1,5 +1,5 @@
 ---
-date: '2022-06-01'
+date: '2023-02-15'
 title: 'USTA CLI'
 github: 'https://github.com/lineville/usta-cli'
 external: 'https://github.com/lineville/usta-cli/pkgs/container/usta-cli'
