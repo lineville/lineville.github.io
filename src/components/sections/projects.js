@@ -267,7 +267,7 @@ const Projects = () => {
 
   return (
     <StyledProjectsSection>
-      <h2 ref={revealTitle}>More Projects</h2>
+      <h2 ref={revealTitle}>More Side Projects</h2>
       <ul className="projects-grid">
         <TransitionGroup component={null}>
           {projects &&
