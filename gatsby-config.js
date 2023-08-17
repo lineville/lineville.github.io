@@ -3,10 +3,9 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Liam Neville',
-    description:
-      'Liam Neville is a software engineer who specializes in building (and occasionally designing) exceptional digital experiences.',
-    siteUrl: 'https://lineville.github.io', // No trailing slash allowed!
-    image: '/og.png', // Path to your image you placed in the 'static' folder
+    description: 'Liam Neville personal website',
+    siteUrl: 'https://lineville.github.io',
+    image: '/og.png',
     twitterUsername: '@bchiang7',
   },
   plugins: [
@@ -140,12 +139,6 @@ module.exports = {
             },
           },
         ],
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-analytics`,
-      options: {
-        trackingId: 'UA-45666519-2',
       },
     },
   ],
