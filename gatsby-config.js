@@ -3,7 +3,7 @@ const config = require('./src/config');
 module.exports = {
   siteMetadata: {
     title: 'Liam Neville',
-    description: 'Liam Neville personal website',
+    description: 'Liam Neville personal portfolio site',
     siteUrl: 'https://lineville.github.io',
     image: '/og.png',
     twitterUsername: '@bchiang7',
