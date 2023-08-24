@@ -6,6 +6,8 @@ external: 'https://crates.io/crates/octocrab/'
 tech:
   - Rust
   - GitHub API
+  - NuGet Package
+  - Open Source Library
 showInProjects: true
 ---
 
