@@ -7,6 +7,8 @@ range: 'January 2022 - present'
 url: 'https://www.github.com/github'
 ---
 
-- Developed and shipped the `forecast` command to [gh valet](https://www.github.com/github/gh-valet) to enable users to get statistics on their CI provider (Jenkins, AzureDevOps, TravisCI, CircleCI or GitLab) in order to predict potential GitHub Actions consumption and runner requirements.
-- Shipped Kubernetes support for elastic-machines in order to enable customers to more effectively scale their GitHub Actions runners on-demand on the cloud provider of their choice (Azure and/or AWS)
-- Enhanced automated load testing systems to increase reliability and stability elastic-machines releases.
+- Developed the forecast command for the [GitHub Actions Importer](https://docs.github.com/en/actions/migrating-to-github-actions/automated-migrations/automating-migration-with-github-actions-importer#forecasting-usage) command line tool, which allows customers to view a report
+estimating their potential Actions usage based on their existing CI footprint prior to migrating.
+- Delivered many key features to Elastic Machines, a solution to scale VM based self-hosted runners. Several of these features we’re
+direct requests from customers that contributed to closing deals with enterprise customers.
+- Contributed the self-hosted runner API's in the [octokit.net](https://github.com/octokit/octokit.net) project -- a .NET client library to interact with the GitHub API.
