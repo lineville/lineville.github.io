@@ -2,7 +2,7 @@
 date: '2024-02-06'
 title: '❓ Guess Who'
 github: 'https://github.com/lineville/guess-who'
-external: 'https://guess-who-virid.vercel.app'
+external: 'https://guess-who-ai.vercel.app'
 tech:
   - NextJS
   - TypeScript
