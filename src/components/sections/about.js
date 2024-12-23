@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['TypeScript', 'Rust', 'Svelte', 'C#', 'Ruby', 'Kubernetes'];
+  const skills = ['TypeScript', 'React', 'Rust', 'Svelte', 'C#', 'Ruby', 'Go', 'Kubernetes'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -152,8 +152,9 @@ const About = () => {
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://quantumscape.com/">a battery start-up</a>,{' '}
               <a href="https://github.com/">and a global developer platform</a>. My main focus these
-              days is building tools to accelerate the adoption and usage of GitHub actions at{' '}
-              <a href="https://github.com/">GitHub</a> for a variety of enterprise clients.
+              days is building tools to accelerate the adoption of{' '}
+              <a href="https://github.com/">GitHub</a> and provide a delightful onboarding
+              experience for all of our enterprise customers.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>
