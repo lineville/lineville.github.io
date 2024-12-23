@@ -83,20 +83,17 @@ const Hero = () => {
         I’m a Full-Stack Software Engineer focused on building powerful, reliable and delightful
         digital experiences. I currently work on the{' '}
         <a
-          href="https://github.com/orgs/github/teams/field-engineering"
+          href="https://github.com/orgs/github/teams/customer-success-engineering"
           target="_blank"
           rel="noreferrer">
-          Field Engineering
+          Customer Success Engineering
         </a>{' '}
         team at{' '}
         <a href="https://github.com/github" target="_blank" rel="noreferrer">
           GitHub
         </a>
-        , with the mission of delivering high quality tools to accelerate the adoption and usage of{' '}
-        <a href="https://github.com/features/actions" target="_blank" rel="noreferrer">
-          GitHub Actions
-        </a>
-        .
+        , with the mission of delivering high quality tools to accelerate the adoption of GitHub's
+        platform in order to empower our Enterprise customers to achieve their goals.
       </p>
     </>
   );
