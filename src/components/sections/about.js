@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['TypeScript', 'React', 'Rust', 'Svelte', 'C#', 'Ruby', 'Go', 'Kubernetes'];
+  const skills = ['TypeScript', 'Go', 'Python', 'Rust', 'React', 'Docker', 'Kubernetes', 'MCP'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -151,10 +151,10 @@ const About = () => {
             <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://quantumscape.com/">a battery start-up</a>,{' '}
-              <a href="https://github.com/">and a global developer platform</a>. My main focus these
-              days is building tools to accelerate the adoption of{' '}
-              <a href="https://github.com/">GitHub</a> and provide a delightful onboarding
-              experience for all of our enterprise customers.
+              <a href="https://github.com/">a global developer platform</a>, and{' '}
+              <a href="https://www.siftstack.com/">a data infrastructure platform</a> for
+              mission-critical hardware. My main focus these days is building dependable AI agents
+              and the tools, evaluations, and infrastructure that support them.
             </p>
 
             <p>Here are a few technologies I’ve been working with recently:</p>

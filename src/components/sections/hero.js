@@ -80,13 +80,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a Full-Stack Software Engineer focused on building powerful, reliable and delightful
-        user experiences. I currently work at{' '}
-        <a href="https://github.com" target="_blank" rel="noreferrer">
-          GitHub
+        I’m a software engineer focused on building powerful, reliable, and delightful products. I
+        currently work at{' '}
+        <a href="https://www.siftstack.com" target="_blank" rel="noreferrer">
+          Sift
         </a>
-        , the place where most of the world's open source code lives. I'm focused on empowering all
-        developers to get the most out of GitHub.
+        , where I build agentic systems that help hardware engineers investigate and understand
+        large-scale telemetry.
       </p>
     </>
   );
